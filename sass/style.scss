@@ -1,0 +1,37 @@
+$myOrange:#df691a;
+$myWhite:#f8f5f9;
+$trWhite:rgb(255,255,255);
+$ebWhite:#ebebeb;
+$myGrey: #2f4051;
+$darkgrey:#424242;
+$lightGrey:#4e5d6c;
+
+       @font-face {
+        font-family: Helvetica; 
+        src: url(../Helvetica.woff); 
+       }
+       @font-face {
+        font-family: Helvetica-Bold; 
+        src: url(../Helvetica-Bold.woff); 
+       }
+body{
+    font-size: 14px;
+    
+    
+}
+ul{
+margin: 0;
+padding: 0;
+}
+li
+{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+@import 'header';
+@import 'aside';
+@import  'main';
+@import  'footer';
+

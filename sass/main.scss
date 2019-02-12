@@ -1,0 +1,104 @@
+/*Main*/
+main{
+    background-color:$myGrey;
+    color: $ebWhite;
+    display: flex;
+    
+
+}
+
+.main_films
+{
+    display: block;
+    width: 900px;
+    flex-grow: 3;
+    padding-bottom: 120px;
+    h1{
+        font-size: 22px;
+        font-family: Roboto;
+        margin: 24px 16px 24px 32px ;
+    }
+
+}
+.main_nav-sort
+{
+    display: flex;
+    padding-left: 32px;
+    font-family: Helvetica-Bold; 
+    border-bottom:1px solid #4e5d6c;
+    margin-bottom: 10px;
+    &_zag{
+        padding-right: 14px;
+    }
+    &_list{
+        display: flex;
+        justify-content: center;
+        &_it{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 14px;
+        }
+    };
+}
+.items
+{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 8px 0 8px;
+    & img{
+        width: 200px;
+        height:240px;
+        border-radius: 2px 2px 0 0;
+    }
+    & .item{
+        background-color: $lightGrey;
+        width: 200px;
+        height:320px;
+        margin:8px;
+        border-radius: 2px;
+
+    }
+    & h4{
+        padding-left: 10px;
+    }
+
+}
+.mark{
+
+    padding-left: 10px;
+
+}
+.mark .star {
+    margin: 0;
+    
+    display: inline-block;
+    font-size: 20px;
+    
+    color: $myOrange;
+    
+}
+.mark .star::before{
+    
+    content: '\2605';
+}
+.main_desc
+{
+    padding: 16px;
+    line-height: 20px;
+}
+.main_nav-page_list
+{
+    display: flex;
+}
+.main_nav-page_list
+{
+    font-size: 16px;
+    margin: 14px 0 14px 0;
+    
+    li a{
+    padding: 8px 12px;
+    color:$ebWhite;
+    }
+}

@@ -1,0 +1,24 @@
+/*Aside*/
+
+aside
+{
+width: 200px;
+box-sizing: border-box;
+box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+padding: 16px 0 16px 16px ;
+
+a{
+    color: $ebWhite;
+    text-decoration: underline;
+    display: block;
+    line-height: 22px;
+    
+}
+
+
+}
+.aside_genre-list,.aside_dvd
+{
+    margin-bottom: 18px;
+    
+}
