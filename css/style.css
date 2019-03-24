@@ -165,13 +165,16 @@ main {
 .items .item {
   background-color: #4e5d6c;
   width: 200px;
-  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 8px;
   border-radius: 2px;
 }
 
 .items h4 {
   padding-left: 10px;
+  margin-bottom: 0;
 }
 
 .mark {
